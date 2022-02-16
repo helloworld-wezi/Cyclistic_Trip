@@ -1,5 +1,7 @@
 # Cyclistic_Trip
 
+This project was carried to complete the Google Data Analytics Certification on Coursera.
+
 ## Tasks:
 1. How do annual members and casual riders use Cyclistic bikes differently?
 2. Why would casual riders buy Cyclistic annual memberships?
@@ -14,7 +16,34 @@
 1. A stakeholder believes that maximizing the number of annual members will be key to future growth. Therefore, converting casual riders into annual members is the priority here.
 2. The data analyst should design marketing strategies aimed at converting casual riders into annual members, preferably using the digital media.
 
-The data source was downloaded from [here](https://divvy-tripdata.s3.amazonaws.com/index.html).
+## Data Source and Tools
+1. The data source was downloaded from [here](https://divvy-tripdata.s3.amazonaws.com/index.html).
+2. The data is analyzed using R with packages: tidyverse, janitor, and lubridate.
+
+## Results
+![01_Number_of_rides_trend_day_of_the_week](https://user-images.githubusercontent.com/87055709/154297464-297c3194-34eb-4f50-9d83-f40622a3e495.png)
+
+![02_Average_duration_trend_day_of_the_week](https://user-images.githubusercontent.com/87055709/154297484-79a04058-a3c8-4a2d-a1c9-2660fb68e765.png)
+
+![03_Median_duration_trend_day_of_the_week](https://user-images.githubusercontent.com/87055709/154297504-fd9c914d-2f14-458d-b410-0d8f5cbef016.png)
+
+![04_Average_duration_trend_by_month_membership](https://user-images.githubusercontent.com/87055709/154297539-433f3e78-e0f1-4c81-8a82-a46a9be7ff20.png)
+
+![05_Average_duration_trend_by_month](https://user-images.githubusercontent.com/87055709/154297550-e31d4710-87ee-45d6-912c-61df8ef4483c.png)
+
+![06_Median_duration_trend_by_month_membership](https://user-images.githubusercontent.com/87055709/154297565-a7b625b8-b73d-484f-b507-66402f05a8fd.png)
+
+![07_Median_duration_trend_by_month](https://user-images.githubusercontent.com/87055709/154297581-04e5255a-f795-473c-b8dd-c27058e81bbc.png)
+
+![08_Number_rides_trend_by_month_membership](https://user-images.githubusercontent.com/87055709/154297587-8d12030d-228b-4d5e-b772-6ef2a18b3080.png)
+
+![09_Number_rides_trend_by_month](https://user-images.githubusercontent.com/87055709/154297603-1a1253b8-f796-4f3b-afe6-0aac25e3611f.png)
+
+![10_Number_rides_station_most_uses](https://user-images.githubusercontent.com/87055709/154297614-61ebd50d-85f6-473c-831f-a45dfb6a2c20.png)
+
+![11_Distribution_trip_duration](https://user-images.githubusercontent.com/87055709/154297630-ec5d244b-63c0-4a28-a834-f7d4b08a0b2f.png)
+
+
 
 ## Observations
 From the visualizations above, it can be observed that:
